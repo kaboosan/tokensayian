@@ -17,7 +17,7 @@ module.exports = {
       provider: function() {
           return new HDWalletProvider(process.env.MNEMONIC, "http://127.0.0.1:7545", MetaMaskAccountIndex )
       },
-      network_id: 5777
+      network_id: 1337
       }
   },
   compilers: {    
